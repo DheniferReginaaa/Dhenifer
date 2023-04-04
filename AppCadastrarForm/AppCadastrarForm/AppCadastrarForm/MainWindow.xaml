@@ -1,0 +1,13 @@
+﻿<Window x:Class="AppContatoForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppContatoForm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="btConsulta" Cursor="">
+        <Button x:Name="btCadastrar" Content="Cadastrar Cliente" HorizontalAlignment="Left" Margin="93,195,0,0" VerticalAlignment="Top" Height="48" Width="175" Click="btCadastrar_Click" FontSize="20" Background="#FFE2B4B4" FontFamily="Palatino Linotype" FontWeight="Bold"/>
+        <Button x:Name="btConsulta1" Content="Listar Cadastro" HorizontalAlignment="Left" Margin="497,195,0,0" VerticalAlignment="Top" Height="47" Width="175" Click="btConsulta1_Click" FontWeight="Bold" FontSize="20" Background="#FFE2B4B4" FontFamily="Palatino Linotype"/>
+    </Grid>
+</Window>
